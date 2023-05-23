@@ -1,0 +1,45 @@
+<h3>{{ heading_title }}</h3>
+
+<div class="my-pink-featured general-container">
+  <div class="go-category">
+    <p> <a href="javascript:void">Kategoriye Git</a>  </p>
+  </div>
+  <div class="swiper myFeaturedSwiper">
+    <div class="swiper-wrapper">
+
+      {% for product in products %}
+      <div class="product-per swiper-slide">{{ product }}</div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<script type="text/javascript">
+  var swiper = new Swiper(".myFeaturedSwiper", {
+    slidesPerView: 5,
+    spaceBetween: 5
+    // breakpoints: {
+    //   "@0.00": {
+    //     slidesPerView: 1,
+    //     spaceBetween: 5,
+    //   },
+    //   "@0.75": {
+    //     slidesPerView: 2,
+    //     spaceBetween: 5,
+    //   },
+    //   "@1.00": {
+    //     slidesPerView: 3,
+    //     spaceBetween: 5,
+    //   },
+    //   "@1.50": {
+    //     slidesPerView: 5,
+    //     spaceBetween: 10,
+    //   },
+    // },
+
+  });
+</script>

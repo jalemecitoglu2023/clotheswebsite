@@ -1,0 +1,40 @@
+{{ header }}
+<div class="multi-story-box general-container swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="multi-story-cont swiper-slide"> <img src="image/catalog/story-content.png" alt=""> </div>
+    <div class="multi-story-cont swiper-slide"> <img src="image/catalog/story-content.png" alt=""> </div>
+    <div class="multi-story-cont swiper-slide"> <img src="image/catalog/story-content.png" alt=""> </div>
+    <div class="multi-story-cont swiper-slide"> <img src="image/catalog/story-content.png" alt=""> </div>
+    <div class="multi-story-cont swiper-slide"> <img src="image/catalog/story-content.png" alt=""> </div>
+    <div class="multi-story-cont swiper-slide"> <img src="image/catalog/story-content.png" alt=""> </div>
+    <div class="multi-story-cont swiper-slide"> <img src="image/catalog/story-content.png" alt=""> </div>
+    <div class="multi-story-cont swiper-slide"> <img src="image/catalog/story-content.png" alt=""> </div>
+    <div class="multi-story-cont swiper-slide"> <img src="image/catalog/story-content.png" alt=""> </div>
+    <div class="multi-story-cont swiper-slide"> <img src="image/catalog/story-content.png" alt=""> </div>
+    <div class="multi-story-cont swiper-slide"> <img src="image/catalog/story-content.png" alt=""> </div>
+  </div>
+
+</div>
+<div id="common-home" class="general-container">
+  <div class="row">{{ column_left }}
+    <div id="content" class="col">{{ content_top }}{{ content_bottom }}</div>
+
+
+    {{ column_right }}
+  </div>
+</div>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+  
+      slidesPerView: 9,
+      // spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+  
+  });
+</script>
+
+{{ footer }}
