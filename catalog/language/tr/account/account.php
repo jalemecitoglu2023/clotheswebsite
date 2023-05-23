@@ -1,5 +1,5 @@
 <?php
-// Translator : Ekrem KAYA
+// Translator : Benden bi tane daha yok
 // Website    : https://e-piksel.com
 
 // Heading
