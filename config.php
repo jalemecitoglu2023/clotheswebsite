@@ -3,10 +3,10 @@
 define('APPLICATION', 'Catalog');
 
 // HTTP
-define('HTTP_SERVER', 'http://localhost/mywebsite/');
+define('HTTP_SERVER', 'http://localhost/clotheswebsite/');
 
 // DIR
-define('DIR_OPENCART', 'C:/xampp/htdocs/mywebsite/');
+define('DIR_OPENCART', 'C:/xampp/htdocs/clotheswebsite/');
 define('DIR_APPLICATION', DIR_OPENCART . 'catalog/');
 define('DIR_EXTENSION', DIR_OPENCART . 'extension/');
 define('DIR_IMAGE', DIR_OPENCART . 'image/');

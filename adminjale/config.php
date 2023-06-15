@@ -3,11 +3,11 @@
 define('APPLICATION', 'Admin');
 
 // HTTP
-define('HTTP_SERVER', 'http://localhost/mywebsite/adminjale/');
-define('HTTP_CATALOG', 'http://localhost/mywebsite/');
+define('HTTP_SERVER', 'http://localhost/clotheswebsite/adminjale/');
+define('HTTP_CATALOG', 'http://localhost/clotheswebsite/');
 
 // DIR
-define('DIR_OPENCART', 'C:/xampp/htdocs/mywebsite/');
+define('DIR_OPENCART', 'C:/xampp/htdocs/clotheswebsite/');
 define('DIR_APPLICATION', DIR_OPENCART . 'adminjale/');
 define('DIR_EXTENSION', DIR_OPENCART . 'extension/');
 define('DIR_IMAGE', DIR_OPENCART . 'image/');
